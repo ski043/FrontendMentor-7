@@ -174,4 +174,151 @@ body {
   color: #a0a1ac;
   letter-spacing: 0.2px;
 }
+
+@media (min-width: 992px) {
+  body {
+    height: 100vh;
+    max-width: 100vw;
+  }
+  .header-nav {
+    width: 100%;
+    height: 10vh;
+    padding: 0 7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: -4rem;
+  }
+  .img-abstract {
+    width: 50%;
+    height: 50%;
+    background: #eef3f6;
+    position: absolute;
+    border-bottom-left-radius: 75px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .img-laptop {
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+  }
+  .img-laptop img {
+    width: 150%;
+  }
+  .web-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    min-height: 50vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding: 0 0 0 7%;
+  }
+  .text-wrapper {
+    width: 50%;
+    height: auto;
+    padding: 0;
+  }
+  .text-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+  .text-heading .text-heading-ad {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #242942;
+    text-align: center;
+    border: 1px solid #242942;
+    border-radius: 50px;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+  }
+  .text-heading .text-heading-info {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #a0a1ac;
+    padding-left: 0.75rem;
+    font-size: 1rem;
+  }
+  .text-title {
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+  .text-title h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 3.8rem;
+    text-transform: uppercase;
+    width: 90%;
+    line-height: 3.5rem;
+  }
+  .text-description {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .text-description p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    color: #5b5f71;
+    width: 50%;
+    font-size: 1.15rem;
+  }
+  .main-buttons {
+    width: 100%;
+    height: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .main-buttons .btn {
+    width: 30%;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    border: none;
+    background: white;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+  }
+  .main-buttons .btn-left {
+    color: white;
+    background: #ff5c5c;
+    border-radius: 10px;
+    letter-spacing: 0.2px;
+  }
+  .main-buttons .btn-right {
+    color: #a0a1ac;
+    letter-spacing: 0.2px;
+    padding-left: 1rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
